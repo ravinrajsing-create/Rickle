@@ -1,0 +1,319 @@
+{
+  "settings": {
+    "serverName": "Rickle Roleplay",
+    "ip": "",
+    "version": "1.21.8",
+    "discordId": "",
+    "discordInvite": "https://discord.gg/rickle",
+    "announcement": {
+      "id": "",
+      "en": ""
+    },
+    "maintenance": false,
+    "rconHost": "127.0.0.1",
+    "rconPort": 25575
+  },
+  "rules": [
+    {
+      "id": "e616b38297a7fca5",
+      "group": "roleplay",
+      "title": {
+        "id": "Griefing (Hormati Base)",
+        "en": "Griefing (Respect Bases)"
+      },
+      "d": {
+        "id": "Dilarang merusak atau mengubah base pemain lain tanpa izin pemiliknya: menghancurkan blok, menaruh blok sembarangan, atau tindakan berat lainnya.",
+        "en": "Do not damage or alter another player's base without the owner's permission: breaking blocks, placing blocks randomly, or any other destructive act."
+      },
+      "x": {
+        "id": "Menghancurkan lalu menaruh blok agar bisa masuk ke Vault atau ruang rahasia di base pemain lain tanpa izin.",
+        "en": "Breaking and replacing blocks to get into another player's vault or secret room without permission."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "26024f4b74273a7a",
+      "group": "roleplay",
+      "title": {
+        "id": "Destroying Bed",
+        "en": "Destroying Bed"
+      },
+      "d": {
+        "id": "Dilarang menghancurkan bed yang kamu temui, apa pun kondisinya. Bed bisa saja milik pemain yang sedang tidak di lokasi; jika dihancurkan, titik respawn miliknya hilang dan ia tidak bisa kembali ke lokasi yang ditandai.",
+        "en": "Do not destroy any bed you come across, under any circumstances. It may belong to an offline player; destroying it removes their respawn point and they cannot return to the location they marked."
+      },
+      "x": {
+        "id": "Menghancurkan bed di rumah pemain lain karena 'cuma bed kosong'.",
+        "en": "Breaking a bed in another player's house because it 'was just an empty bed'."
+      },
+      "s": {
+        "id": "Peringatan → Kick → Ban sementara",
+        "en": "Warning → Kick → Temp ban"
+      }
+    },
+    {
+      "id": "87a6f2ab6879fe7c",
+      "group": "roleplay",
+      "title": {
+        "id": "Spawn Camping",
+        "en": "Spawn Camping"
+      },
+      "d": {
+        "id": "Dilarang mengurung dan membunuh pemain lain berkali-kali saat ia baru respawn.",
+        "en": "Do not trap and repeatedly kill a player who has just respawned."
+      },
+      "x": {
+        "id": "Menunggu di titik respawn lawan lalu membunuhnya terus-menerus.",
+        "en": "Waiting at an opponent's respawn point and killing them over and over."
+      },
+      "s": {
+        "id": "Peringatan → Kick → Ban sementara",
+        "en": "Warning → Kick → Temp ban"
+      }
+    },
+    {
+      "id": "c1bc24fa94a92947",
+      "group": "roleplay",
+      "title": {
+        "id": "Impatient (Kembali Cepat)",
+        "en": "Impatient (Returning Too Soon)"
+      },
+      "d": {
+        "id": "Setelah mati, pemain dilarang kembali ke lokasi roleplay sebelum 15 menit berlalu, apa pun alasannya.",
+        "en": "After dying, a player may not return to the roleplay location until 15 minutes have passed, for any reason."
+      },
+      "x": {
+        "id": "Mati di lokasi RP, lalu kembali setelah 5 menit untuk melanjutkan konflik.",
+        "en": "Dying at the RP scene and coming back after 5 minutes to continue the conflict."
+      },
+      "s": {
+        "id": "Peringatan → Kick → Ban sementara",
+        "en": "Warning → Kick → Temp ban"
+      }
+    },
+    {
+      "id": "f26817ce108634eb",
+      "group": "roleplay",
+      "title": {
+        "id": "Rafting & Skybase",
+        "en": "Rafting & Skybase"
+      },
+      "d": {
+        "id": "Dilarang membangun markas yang melayang tanpa fondasi atau struktur penopang yang jelas.",
+        "en": "Do not build a floating base without a foundation or visible supporting structure."
+      },
+      "x": {
+        "id": "Membangun kotak markas di udara yang hanya bisa dicapai dengan elytra atau pillar sementara.",
+        "en": "Building a base box in mid-air reachable only by elytra or temporary pillars."
+      },
+      "s": {
+        "id": "Peringatan → Kick",
+        "en": "Warning → Kick"
+      }
+    },
+    {
+      "id": "b285f11ea22a0978",
+      "group": "roleplay",
+      "title": {
+        "id": "Bug Abuse",
+        "en": "Bug Abuse"
+      },
+      "d": {
+        "id": "Dilarang memakai bug di server demi keuntungan berlebih bagi diri sendiri yang merugikan pemain lain. Laporkan bug yang kamu temukan kepada staf.",
+        "en": "Do not use server bugs to gain excessive advantage for yourself at other players' expense. Report any bug you find to staff."
+      },
+      "x": {
+        "id": "Memakai glitch untuk menggandakan item atau menembus proteksi area.",
+        "en": "Using a glitch to duplicate items or bypass area protection."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "fb2e1d057a74199f",
+      "group": "roleplay",
+      "title": {
+        "id": "Unfair Totem",
+        "en": "Unfair Totem"
+      },
+      "d": {
+        "id": "Dilarang membawa/menggunakan lebih dari 3 Totem of Undying, dan dilarang memakai fitur Auto Totem saat kondisi perang.",
+        "en": "Do not carry/use more than 3 Totems of Undying, and do not use an Auto Totem feature during war."
+      },
+      "x": {
+        "id": "Membawa 8 totem ke pertempuran, atau memakai mod auto-totem saat perang.",
+        "en": "Bringing 8 totems into a fight, or using an auto-totem mod during war."
+      },
+      "s": {
+        "id": "Peringatan → Kick → Ban sementara",
+        "en": "Warning → Kick → Temp ban"
+      }
+    },
+    {
+      "id": "4e63fe60f7c8a9ba",
+      "group": "roleplay",
+      "title": {
+        "id": "Maling (Menjarah)",
+        "en": "Looting (Theft)"
+      },
+      "d": {
+        "id": "Dilarang menjarah chest di base lain yang posisinya tersembunyi dan tertutup oleh solid block.",
+        "en": "Do not loot chests in another base that are hidden and covered by solid blocks."
+      },
+      "x": {
+        "id": "Menggali dinding untuk mencapai chest tersembunyi lalu mengambil isinya.",
+        "en": "Digging through a wall to reach a hidden chest and taking its contents."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "3c018467e5357fc1",
+      "group": "roleplay",
+      "title": {
+        "id": "Invalid Grinding Assist",
+        "en": "Invalid Grinding Assist"
+      },
+      "d": {
+        "id": "Dilarang memakai script atau hack client yang memberi keuntungan berlebih saat grinding atau farming.",
+        "en": "Do not use scripts or hacked clients that give an unfair advantage while grinding or farming."
+      },
+      "x": {
+        "id": "Memakai auto-clicker, macro, atau bot untuk farming saat AFK.",
+        "en": "Using an auto-clicker, macro or bot to farm while AFK."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "b79eeba65a0552c5",
+      "group": "roleplay",
+      "title": {
+        "id": "Voice Chat Abuse",
+        "en": "Voice Chat Abuse"
+      },
+      "d": {
+        "id": "Dilarang menyalahgunakan fitur Simple Voice Chat sehingga tidak realistis dan mengganggu kenyamanan pemain lain.",
+        "en": "Do not misuse the Simple Voice Chat feature in a way that breaks realism or disturbs other players."
+      },
+      "x": {
+        "id": "Memutar musik/suara keras lewat mic, berteriak sengaja, atau voice changer yang merusak suasana RP.",
+        "en": "Playing loud music/noise through the mic, deliberate screaming, or voice changers that ruin the RP mood."
+      },
+      "s": {
+        "id": "Peringatan → Kick → Ban sementara",
+        "en": "Warning → Kick → Temp ban"
+      }
+    },
+    {
+      "id": "bee4683e9dd6402a",
+      "group": "gameplay",
+      "title": {
+        "id": "Client & Modifikasi",
+        "en": "Client & Modifications"
+      },
+      "d": {
+        "id": "Hanya boleh memakai Minecraft vanilla atau mod client yang diizinkan staf (misalnya OptiFine, Litematica). Hack client dilarang keras.",
+        "en": "Only vanilla Minecraft or client mods approved by staff (e.g. OptiFine, Litematica) are allowed. Hacked clients are strictly forbidden."
+      },
+      "x": {
+        "id": "X-Ray, Killaura, Fly, atau texture pack X-Ray.",
+        "en": "X-Ray, Killaura, Fly, or X-Ray texture packs."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "30906fbd20edcc97",
+      "group": "gameplay",
+      "title": {
+        "id": "Sistem Ekonomi & Dupe",
+        "en": "Economy & Duping"
+      },
+      "d": {
+        "id": "Dilarang mengeksploitasi bug/glitch untuk menduplikasi item (dupe) atau memperkaya diri secara ilegal. Item hasil kecurangan dapat dihapus.",
+        "en": "Do not exploit bugs/glitches to duplicate items (dupe) or enrich yourself illegally. Items gained by cheating may be removed."
+      },
+      "x": {
+        "id": "Menjual item hasil dupe ke pemain lain.",
+        "en": "Selling duplicated items to other players."
+      },
+      "s": {
+        "id": "Ban sementara → Ban permanen",
+        "en": "Temp ban → Permanent ban"
+      }
+    },
+    {
+      "id": "8b32a708894165ea",
+      "group": "community",
+      "title": {
+        "id": "Saling Menghormati",
+        "en": "Mutual Respect"
+      },
+      "d": {
+        "id": "Dilarang melakukan pelecehan, ujaran kebencian (SARA), bullying, atau menyebarkan konten tidak pantas (NSFW) di Discord maupun chat server.",
+        "en": "Harassment, hate speech, bullying, or sharing inappropriate (NSFW) content on Discord or in server chat is forbidden."
+      },
+      "x": {
+        "id": "Mengejek pemain lain karena suku/agama, atau mengirim gambar NSFW.",
+        "en": "Mocking players over ethnicity/religion, or posting NSFW images."
+      },
+      "s": {
+        "id": "Mute → Kick → Ban",
+        "en": "Mute → Kick → Ban"
+      }
+    },
+    {
+      "id": "b143dbf07c96c591",
+      "group": "community",
+      "title": {
+        "id": "Dilarang Spam & Flood",
+        "en": "No Spam & Flooding"
+      },
+      "d": {
+        "id": "Jangan spam pesan, mention massal (@everyone/@here) tanpa izin staf, atau mengirim link berbahaya (phishing/malware).",
+        "en": "Do not spam messages, mass-mention (@everyone/@here) without staff approval, or send dangerous links (phishing/malware)."
+      },
+      "x": {
+        "id": "Mengirim pesan yang sama berulang kali atau link 'free nitro' palsu.",
+        "en": "Sending the same message repeatedly or fake 'free nitro' links."
+      },
+      "s": {
+        "id": "Mute → Kick → Ban",
+        "en": "Mute → Kick → Ban"
+      }
+    },
+    {
+      "id": "d82980c16861a255",
+      "group": "community",
+      "title": {
+        "id": "Hormati Keputusan Staf",
+        "en": "Respect Staff Decisions"
+      },
+      "d": {
+        "id": "Keputusan Admin/Moderator bersifat final. Jika merasa tidak adil, ajukan banding atau komplain melalui channel yang disediakan dengan sopan.",
+        "en": "Admin/Moderator decisions are final. If you feel it is unfair, appeal or file a complaint politely through the designated channel."
+      },
+      "x": {
+        "id": "Berdebat dengan staf di chat umum alih-alih mengajukan banding.",
+        "en": "Arguing with staff in public chat instead of filing an appeal."
+      },
+      "s": {
+        "id": "Peringatan → Mute",
+        "en": "Warning → Mute"
+      }
+    }
+  ],
+  "gallery": []
+}
